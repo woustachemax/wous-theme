@@ -4,6 +4,12 @@
   "description": "Retro Diner/Arcade Inspired Theme",
   "version": "0.0.1",
   "publisher": "woustachemax",
+  "extensions.autoUpdate": false,
+  "extensions.autoCheckUpdates": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/woustachemax/wous-theme"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -18,5 +24,6 @@
         "path": "./themes/theme.json"
       }
     ]
-  }
+  },
+  "icon": "icon.png"
 }
